@@ -1,0 +1,91 @@
+.imageContainer {
+  background: linear-gradient(90deg, rgba(0, 23, 47, 0.85), rgba(0, 23, 47, 0)),
+              url("../../assets/img/hero-bg.jpg") no-repeat center / cover;
+  padding: 6rem 0 4rem;
+  width: 100%;
+  height: auto;         /* ensure it grows with content */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.homePageFont{
+  font-size:2.875rem;
+}
+.bgBlue{
+  background-color: #004b99;
+}
+.padding{
+  padding: 40px;
+}
+.bgBlueGradient{
+  background: linear-gradient(to top left, #004b99, #004b99 51%, #004388 0, #004388);
+}
+.ribbon {
+    background-color: #fff;
+    box-shadow: inset 0 3px 0 #f78d1e, inset 0 -3px 0 #f78d1e;
+    display: inline-block;
+    padding: 1rem;
+    position: relative;
+    text-align: center;
+}
+.borderBlue{
+  border: 6px solid #004b99;
+}
+.pattern{
+  background-image: url("../../assets/img/slant-pattern-lb.png");
+  background-repeat: repeat-x;
+    background-size: 34px;
+    border: none;
+    height: 34px;
+    opacity: 1;
+    width: 100%;
+}
+.containerWide{
+  max-width: 1500px;
+   margin: 0 auto;
+}
+.bgBlueLight{
+  background-color:rgb(240 248 255);
+}
+.imgHowItWorks{
+  background-image: url(../../assets/img/bg-lockers-trolley.jpg);
+      background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+     min-height: 400px;
+}
+.triangleImg{
+    height: auto;
+    max-width: 80%;
+    position: absolute;
+    bottom: 0;   
+    left: 0; 
+    height: auto;
+  
+}
+.countBorder{
+  border: 3px solid #f78d1e;
+    display: block;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    height: 48px;
+    line-height: 42px;
+    position: relative;
+    text-align: center;
+    width: 48px;
+    z-index: 2;
+}
+.locationIcon{
+  width: 25px;
+  margin-right: 10px;
+}
+
+.locationLink{
+  color: #004b99;
+  text-decoration: none;
+}
+.locationLink:hover{
+  color: #f78d1e;
+}

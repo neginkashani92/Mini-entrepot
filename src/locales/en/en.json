@@ -1,7 +1,8 @@
+
 {
-    "WelcomeMessage_one": "Welcome user",
-    "WelcomeMessage_other": "Welcome users",
-    "Storage unit solutions": "Storage unit solutions",
-    "StorageIntro": "<strong>Reliable, comfortable, versatile and affordable.</strong> Our storage units are the perfect way to gain peace of mind and clear the way for new beginnings in your life."
-    
+  "home": "Home",
+  "lockerTypes": "Locker types",
+  "contact": "Contact",
+  "language": "Language",
+  "reserve": "RESERVE A UNIT"
 }

@@ -5,7 +5,7 @@ import { Trans ,useTranslation } from 'react-i18next';
 import i18n from './utils/i18n';
 import Home from './pages/Home/Home';
 import { Route, Routes } from 'react-router-dom';
-
+import Contact from './pages/Contact/Contact';
 function App() {
  
   const { t } = useTranslation();
@@ -28,10 +28,10 @@ function App() {
         }} 
       /> 
     </p> */}
-    <Routes>
+    {/* <Routes>
       <Route path='/' element={<Home/>} />
-
-    </Routes>
+      <Route path='contact-us' element={<Contact/>} />
+    </Routes> */}
   
     </>
   )

@@ -1,6 +1,7 @@
 {
-    "WelcomeMessage_one": "binvebu user",
-    "WelcomeMessage_other": "binvebu users",
-    "Storage unit solutions": "les plus abordables",
-    "StorageIntro": "<strong>Fiable, confortable, polyvalent et abordable.</strong> Nos unités d’entreposage sont idéales pour plus de tranquillité d’esprit et libérer de l’espace pour un nouveau départ dans votre vie."
+  "home": "Accueil",
+  "lockerTypes": "Types de casiers",
+  "contact": "Contact",
+  "language": "Langue",
+   "reserve": "RÉSERVER UNE UNITÉ"
 }

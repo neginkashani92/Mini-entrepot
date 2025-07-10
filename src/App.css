@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Arimo-r";
+  src: url("/src/assets/fonts/Arimo-Regular.ttf");
+}
+@font-face {
+  font-family: "Arimo-b";
+  src: url("/src/assets/fonts/Arimo-Bold.ttf");
+}
+@font-face {
+  font-family: "Playfair-r";
+  src: url("/src/assets/fonts/PlayfairDisplay-Regular.ttf");
+}
+@font-face {
+  font-family: "Playfair-b";
+  src: url("/src/assets/fonts/PlayfairDisplay-Bold.ttf");
+}
+.arimo-regular {
+  font-family: "Arimo-r";
+}
+.arimo-bold {
+  font-family: "Arimo-b";
+}
+.Playfair-regular {
+  font-family: "playfair-r";
+}
+.Playfair-bold {
+  font-family: "Playfair-b";
+}
+
+.main-button {
+  background-color: #f78d1e;
+  color: white;
+  border: none;
+}
+
+.main-button:hover {
+  background-color: #fea265;
+  color: white;
+}
+.main-color {
+  color: #f78d1e;
+}
+.cursor-pointer {
+  cursor: pointer !important;
+}

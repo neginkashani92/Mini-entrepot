@@ -1,48 +1,56 @@
 import logo from '../../assets/img/logo.svg';
-// import { Link } from 'react-router-dom';
-// import i18n from './utils/i18n';
+import { Link } from 'react-router-dom';
+import i18n from '/src/utils/i18n';
+import { Trans ,useTranslation } from 'react-i18next';
 
 function Navbar() {
- 
+ const { t } = useTranslation();
 
 
 
 
   return (
     <>
-   <div className="container-fluid">
-   <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    {/* <a class="navbar-brand" href="#">Navbar</a> */}
-     <a href="">
-              <img class="img-fluid" src={logo} alt="logo" />
-            </a>
+   <div className="container-fluid shadow-sm">
+   <nav className="navbar navbar-expand-lg bg-body-tertiary">
+  <div className="container-fluid">
+    <div>
+      <Link to="/">
+          <img className="img-fluid w-75" src={logo} alt="logo" />
+        </Link>
+    </div>
 
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" to="">Home</a>
+    <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+      <ul className="navbar-nav">
+        <li className="nav-item">
+            <Link className="nav-link active arimo-regular" aria-current="page" to="/">{t('home')}</Link>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Locker Types</a>
+        <li className="nav-item">
+          <Link className="nav-link arimo-regular" to="/locker-types">{t('lockerTypes')}</Link>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+        <li className="nav-item">
+          <Link className="nav-link arimo-regular" to="/contact-us">{t('contact')}</Link>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Language
+        <li className="nav-item dropdown">
+          <a className="nav-link dropdown-toggle arimo-regular" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           {t('language')}
           </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <ul className="dropdown-menu">
+            <li className='cursor-pointer'>
+             <a className="dropdown-item"  onClick={() => i18n.changeLanguage('en')}>EN</a>
+            </li>
+            <li className='cursor-pointer'>
+              <a className="dropdown-item"  onClick={() => i18n.changeLanguage('fr')}>FR</a>
+            </li>
           </ul>
         </li>
+              <div >
+        <button type="button" class="btn main-button btn-md border rounded-0 py-2 arimo-regular" >{t('reserve')}</button>
+              </div>
       </ul>
     </div>
   </div>

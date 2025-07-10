@@ -1,8 +1,8 @@
 import Home from './pages/Home/Home.jsx'
-// import AboutUs from './pages/AboutUs.jsx'
 import Error404 from './pages/Errors/Error404.jsx'
-import AppLayout from './layouts/AppLayout.jsx' // optional layout wrapper
+import AppLayout from './layouts/AppLayout.jsx' 
 import Contact from './pages/Contact/Contact.jsx'
+import LockerTypes from './pages/Locker-Types/LockerTypes.jsx'
 
 const routes = [
   {
@@ -12,6 +12,7 @@ const routes = [
     children: [
       { index:true, element: <Home /> },
       { path: 'contact-us', element: <Contact /> },
+      { path: 'locker-types', element: <LockerTypes/> },
     ],
   },
 ]

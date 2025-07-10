@@ -32,6 +32,19 @@
   color: white;
   border: none;
 }
+.main-button2 {
+  color: #ffffff;
+  border: 3px solid #f78d1e;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  border-radius: 0;
+}
+
+.main-button2:hover {
+  background-color: #f78d1e;
+  color: #ffffff;
+  border-color: #f78d1e;
+}
 
 .main-button:hover {
   background-color: #fea265;
@@ -42,4 +55,10 @@
 }
 .cursor-pointer {
   cursor: pointer !important;
+}
+.blue-color{
+  color: #004b99;
+}
+.bg-Blue{
+  background-color: #004b99;
 }

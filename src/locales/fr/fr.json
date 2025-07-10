@@ -43,7 +43,19 @@
   "how_access_text": "Nous fournissons à chaque client un code d'accès personnel pour un accès facile à nos installations. Vous pouvez passer à un accès 24/7, mais si vous rencontrez des problèmes avec votre code, vous devez contacter le gestionnaire sur place.",
   "how_restrictions_title": "Restrictions",
   "how_restrictions_text": "Il est interdit de stocker des animaux, plantes, aliments, déchets, liquides, matières dangereuses, articles illégaux ou biens odorants (voir les conditions générales pour la liste complète des restrictions).",
-  "our_locations": "Nos <1>emplacements</1>"
+  "our_locations": "Nos <1>emplacements</1>",
+      "call": "Appeler",
+    "saintLaurent": "Saint-Laurent",
+    "saintLaurentAddress": "3700 rue Griffith <1/> Saint-Laurent, Québec, H4T 2B3",
+    "lachine": "Lachine",
+    "lachineAddress": "10500 De la Côte-de-Liesse (Route) <1/> Lachine, Québec, H8T 1A4",
+    "longueuil": "Longueuil",
+    "longueuilAddress": "655 boulevard Jean-Paul Vincent <1/> Longueuil, Québec, J4G 1R3",
+     "home": "Accueil",
+      "lockerTypes": "Types de casiers",
+      "contact": "Contact",
+      "followUs": "Suivez-nous",
+       "copyright": "© 2025 Mini Entrepôts Sauvegarde | Tous droits réservés | <1>Agence numérique Kanguru</1>"
 
 
   }

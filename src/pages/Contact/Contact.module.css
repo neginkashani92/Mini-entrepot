@@ -1,0 +1,21 @@
+.imageContainer {
+  background: linear-gradient(90deg, rgba(0, 23, 47, 0.85), rgba(0, 23, 47, 0)),
+              url("../../assets/img/hero-bg.jpg") no-repeat center / cover;
+  padding: 6rem 0 4rem;
+  width: 100%;
+  height: auto;         /* ensure it grows with content */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.borderBlue{
+  border: 6px solid #004b99;
+}
+.locationIcon{
+  width: 25px;
+  margin-right: 10px;
+}
+.textXs {
+  font-size: 0.75rem !important;
+  /* text-decoration: none; */
+}
